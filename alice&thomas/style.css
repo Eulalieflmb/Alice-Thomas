@@ -1,74 +1,20 @@
-/* Styles de base */
 body {
-  font-family: "Segoe UI", sans-serif;
-  margin: 0;
-  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  text-align: center;
+  padding-top: 100px;
   color: #333;
 }
 
-/* En-tête */
-header {
+button {
   background-color: #007BFF;
   color: white;
-  padding: 20px;
-  text-align: center;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-nav a {
-  color: white;
-  margin: 0 15px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* Sections */
-.section {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-/* Cartes de projet */
-.card-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.card {
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  padding: 20px;
-  width: 250px;
-  transition: transform 0.2s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-}
-
-/* Pied de page */
-footer {
-  background-color: #343a40;
-  color: white;
-  text-align: center;
-  padding: 15px;
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-  nav a {
-    display: block;
-    margin: 10px 0;
-  }
-
-  .card-container {
-    flex-direction: column;
-    align-items: center;
-  }
+button:hover {
+  background-color: #0056b3;
 }
